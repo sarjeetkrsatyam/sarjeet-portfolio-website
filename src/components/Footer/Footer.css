@@ -1,0 +1,49 @@
+.footer {
+  display: flex;
+  align-items: center;
+  margin: -0.5rem -3.5rem;
+  position: relative;
+  margin-top: -7rem;
+  height: auto;
+}
+.f-content {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 4rem;
+  gap: 4rem;
+  color: white;
+}
+.f-icons {
+  display: flex;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 480px){
+  .f-content{
+    transform: scale(.5);
+  }
+}
+.contact-details{
+  display: flex;
+  flex-direction: column;
+ margin-bottom: -1.5rem;
+ margin-left: 2.5rem;
+}
+@media screen and (max-width:600px) {
+  .footer{
+   margin-top: -1rem;
+  }
+  .f-content{
+    margin-bottom: 3rem;
+    margin-left: -16%;
+   
+  }
+  .contact-details{
+    margin-left: -1px;
+    margin-bottom: -2rem;
+  }
+}
